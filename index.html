@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ryan Har</title>
+<style>
+  :root {
+    --bg: #fbfbfa; --fg: #1a1a18; --muted: #6b6b66; --rule: #e2e2dd; --link: #1a4fa0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#16161a; --fg:#e8e8e4; --muted:#9a9a93; --rule:#2e2e34; --link:#8ab4f8; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 34rem; margin: 0 auto; padding: 4rem 1.5rem 5rem; }
+  h1 { font-size: 1.9rem; letter-spacing: -0.02em; margin: 0 0 .3rem; }
+  .tag { color: var(--muted); margin: 0 0 2rem; }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .cta {
+    display: inline-block; padding: .6rem 1.1rem; border: 1px solid var(--rule);
+    border-radius: 8px; color: var(--fg); font-weight: 500; margin-bottom: 2.5rem;
+  }
+  .cta:hover { border-color: var(--muted); text-decoration: none; }
+  h2 {
+    font-size: .78rem; text-transform: uppercase; letter-spacing: .09em;
+    color: var(--muted); font-weight: 600; margin: 2rem 0 .9rem;
+    padding-bottom: .4rem; border-bottom: 1px solid var(--rule);
+  }
+  ul { list-style: none; padding: 0; margin: 0; }
+  li { margin-bottom: 1rem; }
+  .t { font-weight: 600; }
+  .d { color: var(--muted); font-size: .93rem; }
+  footer { margin-top: 2.5rem; color: var(--muted); font-size: .93rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Ryan Har</h1>
+  <p class="tag">Mathematics graduate targeting quantitative trading and research.</p>
+
+  <a class="cta" href="Ryan_Har_Resume.pdf">Résumé (PDF) &rarr;</a>
+
+  <h2>Selected work</h2>
+  <ul>
+    <li>
+      <span class="t"><a href="https://github.com/ryanh24/ryan-har-lob-matching-sim">Limit Order Book Matching Engine</a></span><br>
+      <span class="d">C++20 matching engine over real NASDAQ (LOBSTER) order flow — queue
+      priority, slippage, book depth. 37M msg/s, bounded tail latency.</span>
+    </li>
+    <li>
+      <span class="t"><a href="https://github.com/ryanh24/Option-Pricer-Comparison">Option Pricing Comparison Tool</a></span><br>
+      <span class="d">Black–Scholes vs. Monte Carlo, reconciled for convergence and
+      benchmarked against live market quotes.</span>
+    </li>
+    <li>
+      <span class="t"><a href="https://github.com/ryanh24/Market-Making-Game-Practice">Market-Making Simulator</a></span><br>
+      <span class="d">Interactive spread-setting and inventory-management drill across
+      three valuation formats.</span>
+    </li>
+  </ul>
+
+  <h2>Background</h2>
+  <ul>
+    <li>
+      <span class="t">IMC Prosperity 4 — Global Algorithmic Trading Competition</span><br>
+      <span class="d">676 of 18,803 teams (top 3.6%), competing solo against teams of up to five.</span>
+    </li>
+    <li>
+      <span class="t">Vanderbilt University</span><br>
+      <span class="d">B.A., double major in Mathematics and Music. GRE 170/170 Quantitative.</span>
+    </li>
+  </ul>
+
+  <footer>
+    <a href="https://github.com/ryanh24">GitHub</a> &middot;
+    <a href="https://www.linkedin.com/in/ryan-har">LinkedIn</a> &middot;
+    <a href="mailto:ryan.har.2718@gmail.com">ryan.har.2718@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
