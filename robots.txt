@@ -1,0 +1,10 @@
+# Keep this site out of search results.
+# Anyone with the link can still open it normally - this only asks
+# well-behaved crawlers (Google, Bing) not to index it.
+#
+# To make the landing page findable by name searches while keeping the
+# resume itself out, replace the Disallow line below with:
+#     Disallow: /Ryan_Har_Resume.pdf
+
+User-agent: *
+Disallow: /
